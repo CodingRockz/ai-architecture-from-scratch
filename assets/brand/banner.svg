@@ -1,0 +1,72 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1018"/>
+      <stop offset="0.55" stop-color="#1e1b4b"/>
+      <stop offset="1" stop-color="#0b2a4a"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <!-- subtle dot grid -->
+  <g fill="#ffffff" opacity="0.05">
+    <circle cx="100" cy="60" r="2"/><circle cx="180" cy="60" r="2"/><circle cx="260" cy="60" r="2"/><circle cx="340" cy="60" r="2"/>
+    <circle cx="1180" cy="360" r="2"/><circle cx="1100" cy="360" r="2"/><circle cx="1020" cy="360" r="2"/><circle cx="940" cy="360" r="2"/>
+    <circle cx="1180" cy="300" r="2"/><circle cx="1100" cy="300" r="2"/><circle cx="1020" cy="300" r="2"/>
+    <circle cx="100" cy="120" r="2"/><circle cx="180" cy="120" r="2"/><circle cx="260" cy="120" r="2"/>
+  </g>
+
+  <!-- logo mark -->
+  <g transform="translate(96,150)">
+    <rect width="64" height="64" rx="16" fill="url(#mark)"/>
+    <text x="32" y="46" text-anchor="middle" font-size="38" font-weight="800" fill="#0d1018">A</text>
+  </g>
+
+  <!-- title -->
+  <text x="184" y="178" font-size="52" font-weight="800" fill="#ffffff" letter-spacing="-1">AI Architecture From Scratch</text>
+  <text x="186" y="220" font-size="22" font-weight="600" fill="#a5b4fc">The operating system for thinking about AI</text>
+  <text x="186" y="256" font-size="19" fill="#cbd5e1">Understand, decide, govern, and build AI — without becoming a programmer.</text>
+
+  <!-- the five-verb loop -->
+  <g transform="translate(96,300)" font-size="17" font-weight="700">
+    <g>
+      <rect x="0" y="0" width="150" height="44" rx="22" fill="#ffffff" opacity="0.08"/>
+      <rect x="0" y="0" width="150" height="44" rx="22" fill="none" stroke="#818cf8" stroke-opacity="0.5"/>
+      <text x="75" y="29" text-anchor="middle" fill="#c7d2fe">Understand</text>
+    </g>
+    <text x="162" y="29" fill="#64748b" font-size="20">→</text>
+    <g transform="translate(188,0)">
+      <rect x="0" y="0" width="122" height="44" rx="22" fill="#ffffff" opacity="0.08"/>
+      <rect x="0" y="0" width="122" height="44" rx="22" fill="none" stroke="#818cf8" stroke-opacity="0.5"/>
+      <text x="61" y="29" text-anchor="middle" fill="#c7d2fe">Classify</text>
+    </g>
+    <text x="322" y="29" fill="#64748b" font-size="20">→</text>
+    <g transform="translate(348,0)">
+      <rect x="0" y="0" width="110" height="44" rx="22" fill="#ffffff" opacity="0.08"/>
+      <rect x="0" y="0" width="110" height="44" rx="22" fill="none" stroke="#818cf8" stroke-opacity="0.5"/>
+      <text x="55" y="29" text-anchor="middle" fill="#c7d2fe">Decide</text>
+    </g>
+    <text x="470" y="29" fill="#64748b" font-size="20">→</text>
+    <g transform="translate(496,0)">
+      <rect x="0" y="0" width="100" height="44" rx="22" fill="#ffffff" opacity="0.08"/>
+      <rect x="0" y="0" width="100" height="44" rx="22" fill="none" stroke="#818cf8" stroke-opacity="0.5"/>
+      <text x="50" y="29" text-anchor="middle" fill="#c7d2fe">Apply</text>
+    </g>
+    <text x="608" y="29" fill="#64748b" font-size="20">→</text>
+    <g transform="translate(634,0)">
+      <rect x="0" y="0" width="110" height="44" rx="22" fill="#38bdf8" opacity="0.18"/>
+      <rect x="0" y="0" width="110" height="44" rx="22" fill="none" stroke="#38bdf8" stroke-opacity="0.7"/>
+      <text x="55" y="29" text-anchor="middle" fill="#7dd3fc">Govern</text>
+    </g>
+  </g>
+
+  <rect x="0" y="416" width="1280" height="4" fill="url(#rule)"/>
+</svg>

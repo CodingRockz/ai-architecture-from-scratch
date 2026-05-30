@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "The operating system for thinking about AI. Understand, decide, govern, and build AI — without becoming a programmer.",
-  "homepage": "https://aiarchitecturefromscratch.com",
+  "homepage": "https://codingrockz.github.io/ai-architecture-from-scratch/",
   "license": "MIT",
   "scripts": {
     "dev": "node server.mjs",
