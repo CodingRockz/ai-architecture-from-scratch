@@ -1,0 +1,162 @@
+{
+  "title": "AI Architecture From Scratch",
+  "tagline": "The operating system for thinking about AI.",
+  "version": "0.1.0",
+  "tracks": [
+    {
+      "id": "00-orientation",
+      "title": "Orientation",
+      "summary": "Adopt the architect/operator mindset and learn to drive AI tools.",
+      "lessons": [
+        { "id": "01-how-to-use", "title": "How to use this course", "summary": "What this is, who it's for, and how it's different from learning to code AI.", "status": "published" },
+        { "id": "02-the-new-role", "title": "The new role: architect, not implementer", "summary": "Why the human becomes the orchestrator, evaluator, and governance owner.", "status": "published" },
+        { "id": "03-systems-and-tradeoffs", "title": "Thinking in systems and trade-offs", "summary": "The mental models we reuse in every lesson.", "status": "published" },
+        { "id": "04-driving-ai-tools", "title": "Driving AI tools (Claude / Cursor / Codex)", "summary": "Your implementation team — how to direct it well.", "status": "published" }
+      ]
+    },
+    {
+      "id": "01-foundations",
+      "title": "Foundations & Core Concepts",
+      "summary": "Understand AI deeply — conceptual, visual, no hand-derived math.",
+      "lessons": [
+        { "id": "01-what-is-ai", "title": "What is AI? (ML vs DL vs GenAI vs Agents)", "summary": "The map of the field and where each idea fits.", "status": "published" },
+        { "id": "02-tokens", "title": "Tokens & tokenization", "summary": "Why the model sees pieces, not words.", "status": "published" },
+        { "id": "03-context-windows", "title": "Context windows", "summary": "The model's working memory, and its limits.", "status": "published" },
+        { "id": "04-embeddings-vectors", "title": "Embeddings & vectors", "summary": "Meaning represented as coordinates.", "status": "published" },
+        { "id": "05-tensors", "title": "Tensors", "summary": "What they are and why they matter — no manual math.", "status": "published" },
+        { "id": "06-neural-networks", "title": "Neural networks", "summary": "Intuition: layers, weights, and learning.", "status": "published" },
+        { "id": "07-transformers-attention", "title": "Transformers & attention", "summary": "Why this architecture changed everything.", "status": "published" },
+        { "id": "08-training-vs-inference", "title": "Training vs inference", "summary": "Two very different cost and risk worlds.", "status": "published" },
+        { "id": "09-pretraining-finetuning-alignment", "title": "Pre-training, fine-tuning & alignment", "summary": "How a raw model is shaped into a useful assistant.", "status": "published" },
+        { "id": "10-lora-qlora", "title": "LoRA / QLoRA", "summary": "Cheap behavioural adaptation of large models.", "status": "published" },
+        { "id": "11-rag", "title": "Retrieval-Augmented Generation (RAG)", "summary": "Give the model fresh, private knowledge at answer time.", "status": "published" },
+        { "id": "12-distillation-quantization", "title": "Distillation & quantization", "summary": "Making models smaller, cheaper, and faster.", "status": "published" },
+        { "id": "13-dense-vs-moe", "title": "Dense vs Mixture-of-Experts (MoE)", "summary": "Two ways to scale a model, with different trade-offs.", "status": "published" },
+        { "id": "14-multimodal", "title": "Multimodal models", "summary": "Text, image, audio, video — and speech-to-speech.", "status": "published" },
+        { "id": "15-agents-tools-memory", "title": "Agents, tools & memory", "summary": "From chat to systems that take actions.", "status": "published" },
+        { "id": "16-evaluation-hallucinations-scaling", "title": "Evaluation, hallucinations & scaling laws", "summary": "How we know it works, and why it fails.", "status": "published" }
+      ]
+    },
+    {
+      "id": "02-ecosystems",
+      "title": "AI Ecosystems & Tooling",
+      "summary": "Classify the chaos — know which tool is which, and when to use it.",
+      "lessons": [
+        { "id": "01-ecosystem-map", "title": "The map of the AI ecosystem", "summary": "The category model we reuse everywhere.", "status": "published" },
+        { "id": "02-frontier-llms", "title": "Frontier LLMs (Claude, GPT, Gemini)", "summary": "Strengths and when to choose which.", "status": "published" },
+        { "id": "03-open-source-llms", "title": "Open-source LLMs (Llama, Qwen, Gemma, Mistral)", "summary": "Why and when to run your own.", "status": "published" },
+        { "id": "04-coding-agents", "title": "Coding agents (Claude Code, Cursor, Codex)", "summary": "Your build team — capabilities and limits.", "status": "published" },
+        { "id": "05-agent-frameworks", "title": "Agent frameworks & orchestration", "summary": "LangGraph, CrewAI, AutoGen and friends.", "status": "published" },
+        { "id": "06-workflow-automation", "title": "Workflow automation vs agents", "summary": "n8n / Make / Zapier — and the line between them and agents.", "status": "published" },
+        { "id": "07-vector-databases", "title": "Vector databases", "summary": "Pinecone, Qdrant, pgvector, Weaviate.", "status": "published" },
+        { "id": "08-inference-engines", "title": "Inference engines & local runtimes", "summary": "vLLM, Ollama, llama.cpp.", "status": "published" },
+        { "id": "09-finetuning-stacks", "title": "Fine-tuning stacks", "summary": "Axolotl, Unsloth, and managed tuning.", "status": "published" },
+        { "id": "10-speech-multimodal-tools", "title": "Speech & multimodal tools", "summary": "ElevenLabs, Deepgram; image and video models.", "status": "published" },
+        { "id": "11-evaluation-observability", "title": "Evaluation & observability tooling", "summary": "LangSmith, DeepEval, tracing.", "status": "published" },
+        { "id": "12-cutting-through-hype", "title": "Cutting through the hype", "summary": "How to triage any new release into a category.", "status": "published" }
+      ]
+    },
+    {
+      "id": "03-operations",
+      "title": "AI Operations & Business Transformation",
+      "summary": "Think like an AI strategist who can transform a business.",
+      "lessons": [
+        { "id": "01-think-like-transformation-architect", "title": "How to think like an AI transformation architect", "summary": "From business goals to AI interventions.", "status": "published" },
+        { "id": "02-mapping-opportunities", "title": "Mapping a business for AI opportunities", "summary": "Finding the high-value places to apply AI.", "status": "published" },
+        { "id": "03-roi-analysis", "title": "AI ROI analysis", "summary": "Cost/benefit framing that survives scrutiny.", "status": "published" },
+        { "id": "04-automate-augment-human", "title": "Automate vs augment vs leave-it-human", "summary": "The core labour decision, as a framework.", "status": "published" },
+        { "id": "05-process-redesign", "title": "Process redesign for AI", "summary": "Don't pave the cow path — redesign the work.", "status": "published" },
+        { "id": "06-workflows-copilots-agents", "title": "AI workflows, copilots & agentic workflows", "summary": "The practical patterns in the wild.", "status": "published" },
+        { "id": "07-case-ai-receptionist", "title": "Case study: AI receptionist vs human", "summary": "Speech-to-speech automation, end to end.", "status": "published" },
+        { "id": "08-case-accounting-automation", "title": "Case study: automating a 10-hr/week admin task", "summary": "A realistic small-automation walkthrough.", "status": "published" },
+        { "id": "09-human-in-the-loop", "title": "Human-in-the-loop design", "summary": "Where humans must stay, and why.", "status": "published" },
+        { "id": "10-adoption-change-management", "title": "AI adoption & change management", "summary": "Getting an organisation to actually use it.", "status": "published" },
+        { "id": "11-build-vs-buy", "title": "Build vs buy vs assemble", "summary": "Choosing how to acquire a capability.", "status": "published" },
+        { "id": "12-measuring-impact", "title": "Measuring impact", "summary": "Productivity and quality frameworks.", "status": "published" }
+      ]
+    },
+    {
+      "id": "04-architecture",
+      "title": "AI Systems Architecture",
+      "summary": "Think like an AI architect — design, not code.",
+      "lessons": [
+        { "id": "01-how-architect-thinks", "title": "How an AI architect thinks", "summary": "Requirements → constraints → design.", "status": "published" },
+        { "id": "02-rag-architecture", "title": "RAG architecture (deep)", "summary": "Chunking, retrieval, re-ranking, evaluation.", "status": "published" },
+        { "id": "03-finetuning-architecture", "title": "Fine-tuning architecture", "summary": "Data, pipeline, and lifecycle.", "status": "published" },
+        { "id": "04-local-vs-cloud-hybrid", "title": "Local vs cloud vs hybrid", "summary": "The deployment spectrum and how to choose.", "status": "published" },
+        { "id": "05-gpu-infrastructure", "title": "GPU & infrastructure basics", "summary": "What decision-makers need to know.", "status": "published" },
+        { "id": "06-edge-ai", "title": "Edge & on-device AI", "summary": "When inference moves to the device.", "status": "published" },
+        { "id": "07-model-routing", "title": "Model routing & multi-model systems", "summary": "Right model for each job; controlling cost.", "status": "published" },
+        { "id": "08-memory-architecture", "title": "Memory architecture", "summary": "Short-term, long-term, and retrieval memory.", "status": "published" },
+        { "id": "09-multi-agent-design", "title": "Multi-agent system design", "summary": "When multiple agents help — and when they don't.", "status": "published" },
+        { "id": "10-mcp-tools-integration", "title": "MCP, tools & the integration layer", "summary": "How models reach your systems safely.", "status": "published" },
+        { "id": "11-latency-throughput-cost", "title": "Latency, throughput & cost optimization", "summary": "The performance triangle.", "status": "published" },
+        { "id": "12-observability-reliability", "title": "Observability & reliability in production", "summary": "Knowing what your AI is actually doing.", "status": "published" }
+      ]
+    },
+    {
+      "id": "05-governance",
+      "title": "AI Governance, Risk & Security",
+      "summary": "Deploy AI safely, legally, and in control. Our major pillar.",
+      "lessons": [
+        { "id": "01-governance-as-pillar", "title": "Why governance is a pillar, not a footnote", "summary": "The case for taking control seriously.", "status": "published" },
+        { "id": "02-governance-framework", "title": "Building an AI governance framework", "summary": "Roles, policy, and lifecycle.", "status": "published" },
+        { "id": "03-risk-assessment", "title": "AI risk assessment & risk registers", "summary": "Finding and tracking what could go wrong.", "status": "published" },
+        { "id": "04-privacy-residency-jurisdiction", "title": "Data privacy, residency & jurisdiction", "summary": "Where data lives and who can touch it.", "status": "published" },
+        { "id": "05-confidentiality-ip-leakage", "title": "Confidentiality, IP & privileged information", "summary": "Keeping sensitive data out of the wrong places.", "status": "published" },
+        { "id": "06-security-threats", "title": "Security threats: prompt injection, poisoning & RAG leakage", "summary": "The attacks unique to AI systems, and how to defend.", "status": "published" },
+        { "id": "07-access-control-usage-policies", "title": "Access control & AI usage policies", "summary": "Who can do what, with which data.", "status": "published" },
+        { "id": "08-vendor-risk-lockin", "title": "Vendor risk, lock-in & procurement", "summary": "Choosing and governing AI suppliers.", "status": "published" },
+        { "id": "09-compliance-regulation", "title": "Compliance & regulation", "summary": "Sector-aware: health, legal, finance, government.", "status": "published" },
+        { "id": "10-licensing-copyright-oss-risk", "title": "Licensing, copyright & open-source risk", "summary": "What you're allowed to use and ship.", "status": "published" },
+        { "id": "11-auditability-logging-monitoring", "title": "Auditability, logging & monitoring", "summary": "Proving what happened, after the fact.", "status": "published" },
+        { "id": "12-hallucination-management-approval", "title": "Hallucination management & human approval", "summary": "Designing for wrong answers.", "status": "published" },
+        { "id": "13-cost-governance", "title": "Cost governance", "summary": "Preventing runaway AI spend.", "status": "published" },
+        { "id": "14-fallback-dr-lifecycle", "title": "Fallback, disaster recovery & model lifecycle", "summary": "When the model changes or goes away.", "status": "published" }
+      ]
+    },
+    {
+      "id": "06-implementation",
+      "title": "AI Implementation via AI Agents",
+      "summary": "Bridge 'I understand it' to 'I can make it happen' by directing AI tools.",
+      "lessons": [
+        { "id": "01-working-with-ai-tools", "title": "Working with Claude / Cursor / Codex effectively", "summary": "The habits of a good AI driver.", "status": "published" },
+        { "id": "02-writing-a-spec", "title": "Writing a spec an AI agent can execute", "summary": "Turning intent into buildable instructions.", "status": "published" },
+        { "id": "03-architecture-prompting", "title": "Architecture prompting", "summary": "Describing systems, not snippets.", "status": "published" },
+        { "id": "04-prompt-build-rag", "title": "Prompting to build a RAG system", "summary": "A worked, end-to-end example.", "status": "published" },
+        { "id": "05-prompt-setup-finetuning", "title": "Prompting to set up fine-tuning", "summary": "Directing the tuning workflow.", "status": "published" },
+        { "id": "06-prompt-automations", "title": "Prompting to build automations & agent workflows", "summary": "From idea to working automation.", "status": "published" },
+        { "id": "07-validating-output", "title": "Validating AI-generated output", "summary": "Don't trust blindly — how to check.", "status": "published" },
+        { "id": "08-testing-ai-systems", "title": "Testing AI-built systems", "summary": "Preventing hallucinated implementations.", "status": "published" },
+        { "id": "09-debugging-with-ai", "title": "Debugging and iterating with an AI pair", "summary": "Getting unstuck without writing code.", "status": "published" },
+        { "id": "10-sanity-checking-code", "title": "Sanity-checking generated code & infra as a non-coder", "summary": "What you can verify — and what you can't.", "status": "published" },
+        { "id": "11-limits-of-ai-code", "title": "The limits of AI-built code & when to bring in an engineer", "summary": "Security, maintainability, and production gates.", "status": "published" }
+      ]
+    },
+    {
+      "id": "07-future",
+      "title": "Future AI & Research Thinking",
+      "summary": "Reason about where this is all going.",
+      "lessons": [
+        { "id": "01-reasoning-models", "title": "Reasoning models & test-time compute", "summary": "Thinking longer to answer better.", "status": "published" },
+        { "id": "02-world-models-self-improving", "title": "World models & self-improving agents", "summary": "Beyond next-token prediction.", "status": "published" },
+        { "id": "03-memory-evolution", "title": "Memory evolution & lifelong learning", "summary": "Systems that remember and adapt.", "status": "published" },
+        { "id": "04-synthetic-data-economies", "title": "Synthetic data economies", "summary": "When models make their own training data.", "status": "published" },
+        { "id": "05-ai-native-companies", "title": "AI-native companies & post-SaaS thinking", "summary": "Autonomous organisations and new business shapes.", "status": "published" },
+        { "id": "06-ai-hardware-economics", "title": "AI hardware & inference economics", "summary": "The cost curves shaping what's possible.", "status": "published" },
+        { "id": "07-open-vs-closed-future", "title": "Open vs closed-source futures", "summary": "Two trajectories for the ecosystem.", "status": "published" },
+        { "id": "08-alignment-agi-geopolitics", "title": "Alignment, AGI debates & AI geopolitics", "summary": "The big, contested questions.", "status": "published" }
+      ]
+    },
+    {
+      "id": "capstone",
+      "title": "Capstone",
+      "summary": "Put it all together on a real business.",
+      "lessons": [
+        { "id": "01-design-end-to-end-system", "title": "Design an end-to-end AI system for a real business", "summary": "Architecture + tooling for a chosen scenario.", "status": "published" },
+        { "id": "02-governance-risk-plan", "title": "Write its governance & risk plan", "summary": "Make it safe and defensible.", "status": "published" },
+        { "id": "03-spec-and-build-slice", "title": "Spec it and direct an AI agent to build a slice", "summary": "Prove it works with a real prototype.", "status": "published" }
+      ]
+    }
+  ]
+}

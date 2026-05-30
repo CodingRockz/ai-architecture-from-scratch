@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contribute · AI Architecture From Scratch</title>
+  <meta name="description" content="Suggest a fix or a tool, or report something out of date — no Git required." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>(function(){try{var t=localStorage.getItem('aafs:theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">A</span><span class="brand-name">AI Architecture <span>From Scratch</span></span></a>
+    <nav class="header-nav">
+      <a class="hide-mobile" href="catalog.html">Catalog</a>
+      <a class="hide-mobile" href="roadmap.html">Roadmap</a>
+      <a class="hide-mobile" href="glossary.html">Glossary</a>
+      <a class="hide-mobile" href="about.html">About</a>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+    </nav>
+  </header>
+
+  <main id="main" class="page" style="padding-top:32px;padding-bottom:80px;max-width:760px">
+    <p class="eyebrow">No Git required</p>
+    <h1 style="font-size:2.2rem;letter-spacing:-0.02em;margin:.2em 0">Help keep this fresh</h1>
+    <p style="color:var(--text-muted)">AI tools, prices, model capabilities, and regulations change every month. If you spot something out of date, wrong, or missing — especially a tool we should add — telling us is genuinely valuable. You do <strong>not</strong> need to be a developer.</p>
+
+    <div class="form-card" style="margin-top:24px;max-width:100%">
+      <form id="suggest-form" novalidate>
+        <div class="field">
+          <label for="s-type">What kind of suggestion?</label>
+          <select id="s-type" name="type">
+            <option value="correction">Something is wrong / out of date</option>
+            <option value="tool">A tool we should add or reclassify</option>
+            <option value="lesson">A lesson topic or example to add</option>
+            <option value="accessibility">Accessibility / usability issue</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="s-subject">Which lesson or tool? (optional)</label>
+          <input id="s-subject" name="subject" type="text" placeholder="e.g. RAG lesson, or the tool 'Qdrant'" />
+        </div>
+        <div class="field">
+          <label for="s-message">Your suggestion</label>
+          <textarea id="s-message" name="message" placeholder="Tell us what to change, add, or fix. A source link is a bonus."></textarea>
+        </div>
+        <div class="field">
+          <label for="s-email">Email (optional — only if you want a reply)</label>
+          <input id="s-email" name="email" type="email" placeholder="you@example.com" />
+        </div>
+        <button class="btn btn-primary" type="submit">Send suggestion</button>
+        <p class="form-msg"></p>
+        <p class="form-note">Comfortable with Git instead? See <a href="CONTRIBUTING.md">CONTRIBUTING.md</a> to open a pull request.</p>
+      </form>
+    </div>
+
+    <h2 style="font-size:1.4rem;margin-top:48px">Or just stay in the loop</h2>
+    <p style="color:var(--text-muted)">Get an email when new tracks ship.</p>
+    <form data-subscribe class="subscribe-inline" style="margin:0" novalidate>
+      <input type="email" placeholder="you@example.com" aria-label="Email address" required />
+      <button class="btn btn-primary" type="submit">Notify me</button>
+    </form>
+    <p class="form-msg"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page">
+      <div>© <span data-year></span> AI Architecture From Scratch · <a href="LICENSE">MIT</a> + <a href="LICENSE-CONTENT.md">CC BY 4.0</a></div>
+      <nav><a href="catalog.html">Catalog</a><a href="roadmap.html">Roadmap</a><a href="glossary.html">Glossary</a><a href="about.html">About</a></nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>

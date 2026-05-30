@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glossary · AI Architecture From Scratch</title>
+  <meta name="description" content="Plain-language definitions of every AI term used in the course." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script>(function(){try{var t=localStorage.getItem('aafs:theme');if(t!=='light'&&t!=='dark'){t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">A</span><span class="brand-name">AI Architecture <span>From Scratch</span></span></a>
+    <nav class="header-nav">
+      <a class="hide-mobile" href="catalog.html">Catalog</a>
+      <a class="hide-mobile" href="roadmap.html">Roadmap</a>
+      <a class="hide-mobile" href="glossary.html">Glossary</a>
+      <a class="hide-mobile" href="about.html">About</a>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme"></button>
+    </nav>
+  </header>
+
+  <main id="main" class="page" style="padding-top:32px;padding-bottom:80px">
+    <p class="eyebrow" style="text-align:center">Plain language</p>
+    <h1 style="font-size:2.2rem;letter-spacing:-0.02em;text-align:center;margin:.2em 0">Glossary</h1>
+    <p style="color:var(--text-muted);text-align:center;max-width:580px;margin:0 auto 6px">Every AI term you'll meet in this course, in language a non-engineer can use confidently.</p>
+    <p id="glossary-count" style="text-align:center;color:var(--text-faint);font-size:.85rem;margin:0 auto 20px"></p>
+    <div class="glossary-search">
+      <input id="glossary-search" class="field" type="search" placeholder="Search terms…" aria-label="Search glossary" style="width:100%" />
+    </div>
+    <nav id="glossary-index" class="glossary-index" aria-label="Jump to letter" style="display:none"></nav>
+    <div id="glossary-list"><div class="state"><div class="spinner"></div></div></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page">
+      <div>© <span data-year></span> AI Architecture From Scratch · <a href="LICENSE">MIT</a> + <a href="LICENSE-CONTENT.md">CC BY 4.0</a></div>
+      <nav><a href="catalog.html">Catalog</a><a href="roadmap.html">Roadmap</a><a href="about.html">About</a><a href="contribute.html">Contribute</a></nav>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/widgets.js"></script>
+  <script src="assets/js/glossary.js"></script>
+</body>
+</html>

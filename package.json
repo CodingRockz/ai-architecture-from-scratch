@@ -1,0 +1,23 @@
+{
+  "name": "ai-architecture-from-scratch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The operating system for thinking about AI. Understand, decide, govern, and build AI — without becoming a programmer.",
+  "homepage": "https://aiarchitecturefromscratch.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "validate": "node scripts/validate-curriculum.mjs",
+    "sync": "node scripts/sync-status.mjs"
+  },
+  "keywords": [
+    "ai",
+    "ai-architecture",
+    "ai-literacy",
+    "ai-governance",
+    "ai-systems-thinking",
+    "course",
+    "education"
+  ]
+}
