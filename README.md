@@ -4,9 +4,9 @@
 
 <br/>
 
-[![Live site](https://img.shields.io/badge/▶_start_learning-4f46e5?style=for-the-badge)](https://codingrockz.github.io/ai-architecture-from-scratch/)
+[![Start learning](https://img.shields.io/badge/Start_learning-4f46e5?style=for-the-badge&logo=readthedocs&logoColor=white)](https://codingrockz.github.io/ai-architecture-from-scratch/)
 &nbsp;
-[![Catalog](https://img.shields.io/badge/browse_the_catalog-0ea5e9?style=for-the-badge)](https://codingrockz.github.io/ai-architecture-from-scratch/catalog.html)
+[![Browse the catalog](https://img.shields.io/badge/Browse_the_catalog-0ea5e9?style=for-the-badge)](https://codingrockz.github.io/ai-architecture-from-scratch/catalog.html)
 
 ![Lessons](https://img.shields.io/badge/lessons-92-4f46e5)
 ![Tracks](https://img.shields.io/badge/tracks-9-0ea5e9)
